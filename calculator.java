@@ -15,6 +15,9 @@ float multiplication(float a,float b){
 float division(float a,float b){
     return(a/b);
 }
+float sqaure(float a){
+    return(a*a);
+}
 
 /**
  * The main function creates an instance of the calculator class and performs addition, subtraction,
@@ -35,5 +38,8 @@ public static void main(String[] args) {
 
     float div_result=cal.division(a,b);
     System.out.println("Result:"+div_result);
+
+    float sqa_result=cal.sqaure(a);
+    System.out.println("Result:"+sqa_result);
 }
 }
